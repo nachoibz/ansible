@@ -1,0 +1,4 @@
+---
+nginx_port: 80
+website_title: "Bienvenido/a a mi servidor"
+website_message: "Esta página fue desplegada con Ansible"
