@@ -1,6 +1,6 @@
 ---
 - name: "Primero playbook"
-  hosts: all
+  hosts: ubuntu1
   become: true
 
   tasks:
