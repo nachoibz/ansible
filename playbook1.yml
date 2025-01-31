@@ -1,6 +1,6 @@
 ---
 - name: "Primero playbook"
-  hosts: webservers
+  hosts: all
   become: true
 
   tasks:
