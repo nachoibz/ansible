@@ -1,7 +1,6 @@
 ---
 - hosts: ubuntu1
   become: true
-
   tasks:
     - name: Instalar Nginx
       apt:
@@ -22,3 +21,4 @@
         name: nginx
         state: started
         enabled: yes
+
